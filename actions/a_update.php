@@ -63,7 +63,7 @@ if ($_POST) {
 
 				echo "<h2 class='text-primary text-center mb-5'>Data was updated</h2>" ;
 				echo "<a class='btn btn-primary btn-lg btn-block mt-2' href='../update.php?id=".$id."'>Back to edit mode</a>";
-        		echo "<a class='btn btn-warning btn-lg btn-block mt-2' href='../index.php'>Back to main page</a>";
+        		echo "<a class='btn btn-warning btn-lg btn-block mt-2' href='../admin.php'>Back to main page</a>";
 			}else {
 				echo "Error while updating record : ". $conn->error;
 			}

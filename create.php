@@ -39,17 +39,17 @@ if(isset($_SESSION["user"])){
 		  <div class="form-row">
 		    <div class="form-group col-md-6">
 		      <label for="name">Name</label>
-		      <input type="text" class="form-control" name="name" id="name">
+		      <input type="text" class="form-control" name="name" id="name" required>
 		    </div>
 		    <div class="form-group col-md-6">
 		      <label for="image">Image URL</label>
-		      <input type="text" class="form-control" name="image" id="image">
+		      <input type="text" class="form-control" name="image" id="image" required>
 		    </div>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-4">
 		      <label for="type">Type</label>
-		      <input type="text" class="form-control" name="type" id="type">
+		      <input type="text" class="form-control" name="type" id="type" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="size">Size</label>
@@ -60,35 +60,35 @@ if(isset($_SESSION["user"])){
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="hobbies">Hobbies</label>
-		      <input type="text" class="form-control" name="hobbies" id="hobbies">
+		      <input type="text" class="form-control" name="hobbies" id="hobbies" required>
 		    </div>
 		    <div class="form-group col-md-2">
 		      <label for="age">Age</label>
-		      <input type="number" class="form-control" name="age" id="age">
+		      <input type="number" class="form-control" name="age" id="age" required>
 		    </div>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-12">
 		      <label for="description">Description</label>
-		      <input type="text" class="form-control" name="description" id="description">
+		      <input type="text" class="form-control" name="description" id="description" required>
 		    </div>
 		  </div>
 		  <div class="form-group">
 		    <label for="address">Address</label>
-		    <input type="text" class="form-control" id="address" name="address">
+		    <input type="text" class="form-control" id="address" name="address" required>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-6">
 		      <label for="city">City</label>
-		      <input type="text" class="form-control" name="city" id="city">
+		      <input type="text" class="form-control" name="city" id="city" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="country">Country</label>
-		      <input type="text" class="form-control" name="country" id="country">
+		      <input type="text" class="form-control" name="country" id="country" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="zip">Zip</label>
-		      <input type="text" class="form-control" name="zip" id="zip">
+		      <input type="text" class="form-control" name="zip" id="zip" required>
 		    </div>
 		  </div>
 		  <button type="submit" class="btn btn-primary btn-lg btn-block">Add</button>

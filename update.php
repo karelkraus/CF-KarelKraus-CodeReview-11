@@ -57,17 +57,17 @@
 		  <div class="form-row">
 		    <div class="form-group col-md-6">
 		      <label for="name">Name</label>
-		      <input type="text" class="form-control" name="name" id="name" value="<?php echo $data['name'] ?>">
+		      <input type="text" class="form-control" name="name" id="name" value="<?php echo $data['name'] ?>" required>
 		    </div>
 		    <div class="form-group col-md-6">
 		      <label for="image">Image URL</label>
-		      <input type="text" class="form-control" name="image" id="image" value="<?php echo $data['image'] ?>">
+		      <input type="text" class="form-control" name="image" id="image" value="<?php echo $data['image'] ?>" required>
 		    </div>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-4">
 		      <label for="type">Type</label>
-		      <input type="text" class="form-control" name="type" id="type" value="<?php echo $data['type'] ?>">
+		      <input type="text" class="form-control" name="type" id="type" value="<?php echo $data['type'] ?>" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="size">Size</label>
@@ -79,35 +79,35 @@
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="hobbies">Hobbies</label>
-		      <input type="text" class="form-control" name="hobbies" id="hobbies" value="<?php echo $data['hobbies'] ?>">
+		      <input type="text" class="form-control" name="hobbies" id="hobbies" value="<?php echo $data['hobbies'] ?>" required>
 		    </div>
 		    <div class="form-group col-md-2">
 		      <label for="age">Age</label>
-		      <input type="number" class="form-control" name="age" id="age" value="<?php echo $data['age'] ?>">
+		      <input type="number" class="form-control" name="age" id="age" value="<?php echo $data['age'] ?>" required>
 		    </div>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-12">
 		      <label for="description">Description</label>
-		      <input type="text" class="form-control" name="description" id="description" value="<?php echo $data['description'] ?>">
+		      <input type="text" class="form-control" name="description" id="description" value="<?php echo $data['description'] ?>" required>
 		    </div>
 		  </div>
 		  <div class="form-group">
 		    <label for="address">Address</label>
-		    <input type="text" class="form-control" id="address" name="address" value="<?php echo $data2['address'] ?>">
+		    <input type="text" class="form-control" id="address" name="address" value="<?php echo $data2['address'] ?>" required>
 		  </div>
 		  <div class="form-row">
 		    <div class="form-group col-md-6">
 		      <label for="city">City</label>
-		      <input type="text" class="form-control" name="city" id="city" value="<?php echo $data2['city'] ?>">
+		      <input type="text" class="form-control" name="city" id="city" value="<?php echo $data2['city'] ?>" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="country">Country</label>
-		      <input type="text" class="form-control" name="country" id="country" value="<?php echo $data2['country'] ?>">
+		      <input type="text" class="form-control" name="country" id="country" value="<?php echo $data2['country'] ?>" required>
 		    </div>
 		    <div class="form-group col-md-3">
 		      <label for="zip">Zip</label>
-		      <input type="text" class="form-control" name="zip" id="zip" value="<?php echo $data2['zip'] ?>">
+		      <input type="text" class="form-control" name="zip" id="zip" value="<?php echo $data2['zip'] ?>" required>
 		    </div>
 		  </div>
 		  <button type="submit" class="btn btn-primary btn-lg btn-block">Update</button>
