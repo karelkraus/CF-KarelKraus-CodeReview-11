@@ -18,11 +18,27 @@ body {
 	opacity: 0.2;
 }
 
-.landing h1 {
+.landing #word1 {
 	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
 	animation: animate 1s ease-in-out infinite;
+}
+
+.landing #word2 {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	animation: animate 1s ease-in-out infinite;
+	animation-delay: 0.2s;
+}
+
+.landing #word3 {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	animation: animate 1s ease-in-out infinite;
+	animation-delay: 0.5s;
 }
 
 @keyframes animate {
