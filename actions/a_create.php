@@ -28,7 +28,7 @@ if ($_POST) {
 	$address = $_POST['address'];
 	$country = $_POST['country'];
 
-	$locat = "SELECT id_location FROM location WHERE address='$address'";
+	$locat = "SELECT id_location FROM location WHERE address='$address' AND city='$city'";
 		$result = mysqli_query($conn, $locat);
 		$data = $result -> fetch_assoc();
 		$count = mysqli_num_rows($result);

@@ -3,7 +3,7 @@
 
 	$search = $_POST['search'];
 
-	$sql = "SELECT * FROM animal WHERE name LIKE '".$search."%'";
+	$sql = "SELECT * FROM animal WHERE available = 'yes' AND name LIKE '".$search."%'";
 	$result = mysqli_query($conn,$sql);
 	$rows = $result->fetch_all(MYSQLI_ASSOC);
 
